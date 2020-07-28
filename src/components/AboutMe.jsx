@@ -22,7 +22,7 @@ const AboutMe = () =>{
             </div>
             <div className='aarowRow row'>
               <div className='col'>
-              <a href='#'><i class="downAarow fas fa-chevron-circle-down fa-3x"></i></a>
+              <a href='#'><i class="downAarow fas fa-chevron-circle-down fa-3x mb-4"></i></a>
               </div>
             </div>
           </div>
