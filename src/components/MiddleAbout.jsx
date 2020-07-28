@@ -5,7 +5,7 @@ const MiddleAbout = () => {
     <div id="section1" className="middleAboutSection container-fluid">
       <div className="row">
           <div className='col-2'></div>
-        <div className="col-sm-12 col-md-12 col-lg-8 text-white">
+        <div className="col-sm-12 col-md-12 col-lg-8 text-white mb-5">
           <p className="aboutZach mt-5">About Me</p>
           <p className="aboutParagraph">
             Ex-beverage professional turned full-stack developer with a focus on

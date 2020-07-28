@@ -3,6 +3,7 @@ import "./style.css";
 import Navigation from "./components/Navigation";
 import AboutMe from './components/AboutMe';
 import MiddleAbout from './components/MiddleAbout';
+import SkillSet from './components/SkillSet';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Navigation />
         <AboutMe />
         <MiddleAbout />
+        <SkillSet />
     </div>
   );
 };
