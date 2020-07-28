@@ -2,6 +2,9 @@
 .home{
     color:orangered !important
 }
+ul li{
+    list-style: none;
+}
 li a{
     font-size: 19px;
     color: rgba(255, 255, 255, 0.911) !important;
@@ -19,14 +22,13 @@ hr{
 }
 
 .info-section{
-    background: url(https://images.pexels.com/photos/1090972/pexels-photo-1090972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-    /* background-image: url(https://images.pexels.com/photos/1090972/pexels-photo-1090972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+    /* background: url(https://images.pexels.com/photos/1090972/pexels-photo-1090972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-repeat: no-repeat;
     box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.301);
     background-attachment: fixed;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.596);
-    height: 790px;
+    height: 790px; */
 }
 
 .hey{
@@ -74,3 +76,48 @@ hr{
 
 
 }
+.middleAboutSection{
+    background-color: rgb(49, 49, 49);
+}
+
+.myPic{
+    border-radius: 50%;
+    height: 165px;
+}
+.app{
+    background: url(https://images.pexels.com/photos/1090972/pexels-photo-1090972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.301);
+    background-attachment: fixed;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.aboutZach{
+    font-size: 24px;
+}
+.aboutParagraph{
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listName{
+    line-height: 10px;
+}
+.listStamford{
+    line-height: 10px;
+}
+.listPhone{
+    line-height: 10px;
+}
+.listEmail{
+    line-height: 10px;
+}
+.resumeBtn{
+    margin-left: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .resumeBtn{
+        margin-left: 0%;
+    }
+  }

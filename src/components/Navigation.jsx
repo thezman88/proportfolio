@@ -1,9 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 
 const Navigation = () => {
+  const [limit, setLimit] = useState('')
+
   return (
     <div>
-      <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+      <nav class="navbar navbar-expand-md navbar-dark">
         <a id="murphMan" class="navbar-brand" href="#"></a>
         <button
           class="burger-btn navbar-toggler collapsed"
