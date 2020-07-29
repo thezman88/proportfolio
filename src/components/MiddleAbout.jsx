@@ -8,10 +8,10 @@ const MiddleAbout = () => {
         <div className="col-sm-12 col-md-12 col-lg-8 text-white mb-5">
           <p className="aboutZach mt-5">About Me</p>
           <p className="aboutParagraph">
-            Ex-beverage professional turned full-stack developer with a focus on
+            Ex-food & beverage professional turned full-stack developer with a focus on
             object-oriented programming
              and the user experience. An experienced
-            manager and educator who values communication and is
+            manager who values communication and is
              able to be both
             a leader and a productive team player. A creative problem-solver
             with the ability to 
