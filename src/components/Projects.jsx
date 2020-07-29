@@ -25,19 +25,19 @@ const Projects = () => {
             </div>
           </div>
           <div className="pic1 col-sm-12 col-md-6 col-lg-3">
-            <div className="bamBack">
+            <div className="groundzBack">
               <a class="bamBtn" href="/zach/">
-                <p className="text-white">Bamazon Shopper</p>
-                <p className="nodeP small">Node Project</p>
+                <p className="text-white">Groundz</p>
+                <p className="nodeP small">MERN Project</p>
                 <i class="fas fa-plus fa-2x mt-3"></i>
               </a>
             </div>
           </div>
           <div className="pic1 col-sm-12 col-md-6 col-lg-3">
-            <div className="bamBack">
+            <div className="gruberBack">
               <a class="bamBtn" href="/zach/">
-                <p className="text-white">Bamazon Shopper</p>
-                <p className="nodeP small">Node Project</p>
+                <p className="text-white">Gruber</p>
+                <p className="nodeP small">MERN Project</p>
                 <i class="fas fa-plus fa-2x mt-3"></i>
               </a>
             </div>
