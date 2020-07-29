@@ -48,7 +48,7 @@ hr{
 
 .github:hover{
     color: rgb(13, 197, 197);
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 .linkedin{
@@ -149,6 +149,14 @@ hr{
     /* background-attachment: fixed; */
     background-position: center;
 }
+.liriBack{
+    height: 250px;
+    width: 250px;
+    background-image: url('/img/liriPic.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+}
 .bamBtn {
     display: none;
     text-decoration: none;
@@ -156,18 +164,26 @@ hr{
     font-size: 20px;
     color: white;
   }
-  .btn{
-    display: none;
-
-  }
+ 
   
 
   .bamBack:hover  {
     /* Change the filter in here */
     box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.822);
   }
+  .liriBack:hover{
+    box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.822);
+
+  }
 
   .bamBack:hover .bamBtn {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  .liriBack:hover .bamBtn{
     display: inline-block;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -190,6 +206,9 @@ hr{
 .modBtn:hover {
     display: inline-block;
 
+}
+.modal{
+    margin-top: 100px;
 }
 
 
