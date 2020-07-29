@@ -22,6 +22,7 @@ hr{
 }
 
 .info-section{
+    margin-bottom: 65px;
     /* background: url(https://images.pexels.com/photos/1090972/pexels-photo-1090972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
     background-repeat: no-repeat;
     box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.301);
@@ -39,7 +40,7 @@ hr{
 
 .aboutMe{
     font-size: 20px;
-    color: rgb(167, 167, 167);
+    color: rgb(187, 187, 187);
     
 }
 .github{
@@ -141,21 +142,47 @@ hr{
 
 }
 
+
 .bamBack{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    /* width: 200px; */
     background-image: url('/img/bamShot.png');
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .liriBack{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    /* width: 200px; */
     background-image: url('/img/liriPic.png');
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    /* background-position: center; */
+
+}
+.groundzBack{
+    height: 200px;
+    /* width: 200px; */
+    background-image: url('/img/groundzPic.png');
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.gruberBack{
+    height: 200px;
+    /* width: 200px; */
+    background-image: url('/img/gruberPic.png');
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .bamBtn {
     display: none;
@@ -175,6 +202,14 @@ hr{
     box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.822);
 
   }
+  .groundzBack:hover{
+    box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.822);
+
+  }
+  .gruberBack:hover{
+    box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.822);
+
+  }
 
   .bamBack:hover .bamBtn {
     display: inline-block;
@@ -184,6 +219,20 @@ hr{
     color: white;
   }
   .liriBack:hover .bamBtn{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  .groundzBack:hover .bamBtn{
+    display: inline-block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  .gruberBack:hover .bamBtn{
     display: inline-block;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -210,7 +259,13 @@ hr{
 .modal{
     margin-top: 100px;
 }
-
+#footer{
+    background-color: rgb(15, 15, 15);
+}
+.upAarow:hover{
+    color: rgb(13, 197, 197) !important;
+    transition: 0.8s;
+}
 
 
 
